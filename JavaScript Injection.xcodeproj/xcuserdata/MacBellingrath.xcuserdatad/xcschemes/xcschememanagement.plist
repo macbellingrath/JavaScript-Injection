@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Extension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>JavaScript Injection.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,16 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>E6753C681B6F9FB50018A3D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E6753C811B6FA0550018A3D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E6EB2E911B6FC1BB00762692</key>
 		<dict>
 			<key>primary</key>
 			<true/>

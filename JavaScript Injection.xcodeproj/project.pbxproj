@@ -12,7 +12,37 @@
 		E6753C721B6F9FB50018A3D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6753C701B6F9FB50018A3D6 /* Main.storyboard */; };
 		E6753C741B6F9FB50018A3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6753C731B6F9FB50018A3D6 /* Assets.xcassets */; };
 		E6753C771B6F9FB50018A3D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6753C751B6F9FB50018A3D6 /* LaunchScreen.storyboard */; };
+		E6753C851B6FA0550018A3D6 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6753C841B6FA0550018A3D6 /* ActionViewController.swift */; };
+		E6753C881B6FA0550018A3D6 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6753C861B6FA0550018A3D6 /* MainInterface.storyboard */; };
+		E6753C8C1B6FA0550018A3D6 /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E6753C821B6FA0550018A3D6 /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E6EB2E8B1B6FBCB600762692 /* JavaScript Injection.app in Resources */ = {isa = PBXBuildFile; fileRef = E6753C691B6F9FB50018A3D6 /* JavaScript Injection.app */; };
+		E6EB2E8C1B6FBD6000762692 /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = E6753C911B6FA3800018A3D6 /* Action.js */; };
+		E6EB2E8D1B6FBD7A00762692 /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = E6753C911B6FA3800018A3D6 /* Action.js */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6753C8A1B6FA0550018A3D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6753C611B6F9FB50018A3D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6753C811B6FA0550018A3D6;
+			remoteInfo = Extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E6753C901B6FA0550018A3D6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E6753C8C1B6FA0550018A3D6 /* Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E6753C691B6F9FB50018A3D6 /* JavaScript Injection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JavaScript Injection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +52,30 @@
 		E6753C731B6F9FB50018A3D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6753C761B6F9FB50018A3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6753C781B6F9FB50018A3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6753C821B6FA0550018A3D6 /* Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6753C841B6FA0550018A3D6 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		E6753C871B6FA0550018A3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		E6753C891B6FA0550018A3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6753C911B6FA3800018A3D6 /* Action.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
+		E6EB2E921B6FC1BB00762692 /* ExtensionTwo.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ExtensionTwo.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E6753C661B6F9FB50018A3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6753C7F1B6FA0550018A3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EB2E8F1B6FC1BB00762692 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				E6753C6B1B6F9FB50018A3D6 /* JavaScript Injection */,
+				E6753C831B6FA0550018A3D6 /* Extension */,
 				E6753C6A1B6F9FB50018A3D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				E6753C691B6F9FB50018A3D6 /* JavaScript Injection.app */,
+				E6753C821B6FA0550018A3D6 /* Extension.appex */,
+				E6EB2E921B6FC1BB00762692 /* ExtensionTwo.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +117,17 @@
 			path = "JavaScript Injection";
 			sourceTree = "<group>";
 		};
+		E6753C831B6FA0550018A3D6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E6753C841B6FA0550018A3D6 /* ActionViewController.swift */,
+				E6753C861B6FA0550018A3D6 /* MainInterface.storyboard */,
+				E6753C891B6FA0550018A3D6 /* Info.plist */,
+				E6753C911B6FA3800018A3D6 /* Action.js */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +138,51 @@
 				E6753C651B6F9FB50018A3D6 /* Sources */,
 				E6753C661B6F9FB50018A3D6 /* Frameworks */,
 				E6753C671B6F9FB50018A3D6 /* Resources */,
+				E6753C901B6FA0550018A3D6 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E6753C8B1B6FA0550018A3D6 /* PBXTargetDependency */,
 			);
 			name = "JavaScript Injection";
 			productName = "JavaScript Injection";
 			productReference = E6753C691B6F9FB50018A3D6 /* JavaScript Injection.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E6753C811B6FA0550018A3D6 /* Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6753C8D1B6FA0550018A3D6 /* Build configuration list for PBXNativeTarget "Extension" */;
+			buildPhases = (
+				E6753C7E1B6FA0550018A3D6 /* Sources */,
+				E6753C7F1B6FA0550018A3D6 /* Frameworks */,
+				E6753C801B6FA0550018A3D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Extension;
+			productName = Extension;
+			productReference = E6753C821B6FA0550018A3D6 /* Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E6EB2E911B6FC1BB00762692 /* ExtensionTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6EB2E9D1B6FC1BB00762692 /* Build configuration list for PBXNativeTarget "ExtensionTwo" */;
+			buildPhases = (
+				E6EB2E8E1B6FC1BB00762692 /* Sources */,
+				E6EB2E8F1B6FC1BB00762692 /* Frameworks */,
+				E6EB2E901B6FC1BB00762692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExtensionTwo;
+			productName = ExtensionTwo;
+			productReference = E6EB2E921B6FC1BB00762692 /* ExtensionTwo.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -94,6 +194,12 @@
 				ORGANIZATIONNAME = "Mac Bellingrath";
 				TargetAttributes = {
 					E6753C681B6F9FB50018A3D6 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					E6753C811B6FA0550018A3D6 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					E6EB2E911B6FC1BB00762692 = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
@@ -112,6 +218,8 @@
 			projectRoot = "";
 			targets = (
 				E6753C681B6F9FB50018A3D6 /* JavaScript Injection */,
+				E6753C811B6FA0550018A3D6 /* Extension */,
+				E6EB2E911B6FC1BB00762692 /* ExtensionTwo */,
 			);
 		};
 /* End PBXProject section */
@@ -121,9 +229,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6EB2E8D1B6FBD7A00762692 /* Action.js in Resources */,
 				E6753C771B6F9FB50018A3D6 /* LaunchScreen.storyboard in Resources */,
 				E6753C741B6F9FB50018A3D6 /* Assets.xcassets in Resources */,
 				E6753C721B6F9FB50018A3D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6753C801B6FA0550018A3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EB2E8C1B6FBD6000762692 /* Action.js in Resources */,
+				E6EB2E8B1B6FBCB600762692 /* JavaScript Injection.app in Resources */,
+				E6753C881B6FA0550018A3D6 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EB2E901B6FC1BB00762692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +265,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E6753C7E1B6FA0550018A3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6753C851B6FA0550018A3D6 /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EB2E8E1B6FC1BB00762692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6753C8B1B6FA0550018A3D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6753C811B6FA0550018A3D6 /* Extension */;
+			targetProxy = E6753C8A1B6FA0550018A3D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E6753C701B6F9FB50018A3D6 /* Main.storyboard */ = {
@@ -156,6 +305,14 @@
 				E6753C761B6F9FB50018A3D6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E6753C861B6FA0550018A3D6 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6753C871B6FA0550018A3D6 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -246,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "JavaScript Injection/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.JavaScript-Injection";
@@ -257,10 +415,55 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "JavaScript Injection/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.JavaScript-Injection";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E6753C8E1B6FA0550018A3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.JavaScript-Injection.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E6753C8F1B6FA0550018A3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.JavaScript-Injection.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E6EB2E9E1B6FC1BB00762692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ExtensionTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.JavaScript-Injection.ExtensionTwo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E6EB2E9F1B6FC1BB00762692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ExtensionTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.JavaScript-Injection.ExtensionTwo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -281,6 +484,24 @@
 			buildConfigurations = (
 				E6753C7C1B6F9FB50018A3D6 /* Debug */,
 				E6753C7D1B6F9FB50018A3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6753C8D1B6FA0550018A3D6 /* Build configuration list for PBXNativeTarget "Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6753C8E1B6FA0550018A3D6 /* Debug */,
+				E6753C8F1B6FA0550018A3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6EB2E9D1B6FC1BB00762692 /* Build configuration list for PBXNativeTarget "ExtensionTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EB2E9E1B6FC1BB00762692 /* Debug */,
+				E6EB2E9F1B6FC1BB00762692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
